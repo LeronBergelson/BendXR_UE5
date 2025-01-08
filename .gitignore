@@ -57,6 +57,17 @@ Build/*
 Build/*/**
 !Build/*/PakBlacklist*.txt
 
+# Exclude build artifacts and intermediate files
+Binaries/
+Intermediate/
+Saved/
+
+# Exclude logs
+*.log
+
+# Exclude user-specific configs
+Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
