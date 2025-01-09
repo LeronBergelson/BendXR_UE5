@@ -3,6 +3,17 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "BendXR",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"RemoteControl",
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OculusXR",
@@ -12,6 +23,10 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "RemoteControl",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
